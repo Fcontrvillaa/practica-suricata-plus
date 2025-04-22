@@ -63,9 +63,47 @@
 }
 
 
+.row {
+  
+    align-items: center; /* Opcional */
+    /* gap: 20px; /* Alternativa a justify-content para espaciado uniforme */
+  }
+  
+  /* Si usas gap y quieres centrar las tarjetas en la fila */
+  /*.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }*/
+  
+  .col {
+
+    justify-content: space-around;
+    /* No es necesario agregar estilos específicos para el centrado aquí,
+       el justify-content del .row se encargará de eso */
+  }
+  
+  .card {
+    width: 16rem; /* Asegura que las tarjetas tengan un ancho fijo */
+    margin-bottom: 20px; /* Opcional: Añade un espacio vertical entre las tarjetas si hay varias filas */
+    justify-content: space-around;  
+
+}
+
+
+
+
+
+
+
+
+
 .icons {
     font-family: "Open Sans", sans-serif;
     padding-top: 100px;
+   
+    
 }
 
 .bg-color {
