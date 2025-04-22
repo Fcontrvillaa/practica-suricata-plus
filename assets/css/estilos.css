@@ -1,5 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*reset de css a html*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
     background-color: #E83E8C;
     color: white;
     padding-top: 10px;
+}
+
+.col {
+    margin: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;;
+}
+
+.icons {
+    font-family: "Open Sans", sans-serif;
+    padding-top: 100px;
+}
+
+.bg-color {
+    background-color: #17A2B8;
+}
+.footer {
+    background-color: #E83E8C;
 }
